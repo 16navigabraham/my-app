@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@privy-io/react-auth": "^2.18.0",
+    "@privy-io/wagmi-connector": "^0.1.13",
+    "next": "15.3.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.5"
+    "viem": "^2.31.7",
+    "wagmi": "^2.15.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/trusted-types": "^2.0.7",
     "tailwindcss": "^4"
   }
 }
