@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div>
       <head>
-        <title>My App with Privy</title>
+        <title>AbrahamNAVIG</title>
         <meta name="description" content="Next.js app with Privy wallet connection" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/cat.jpg" />
       </head>
 
       <main style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
         <h1 style={{ fontSize: '2rem', marginBottom: '2rem' }}>
-          Welcome to My App
+          Welcome to AbrahamNAVIG
         </h1>
         
         <WalletConnect />

@@ -12,10 +12,10 @@ export default function App({ Component, pageProps }) {
         appearance: {
           theme: 'light',
           accentColor: '#676FFF',
-          logo: 'https://your-logo-url.com/logo.png', // optional
+          logo: 'cat.jpg', // optional
         },
         // Configure login methods
-        loginMethods: ['wallet', 'email', 'google'],
+        loginMethods: ['wallet'],
         // Configure supported chains
         supportedChains: [
           {
@@ -29,15 +29,30 @@ export default function App({ Component, pageProps }) {
             },
             rpcUrls: {
               default: {
-                http: ['https://mainnet.infura.io/v3/your-infura-key'],
+                http: ['https://eth.drpc.org'],
+              },
+            },
+          },
+          {
+            id: 8453,
+            name: 'Base',
+            network: 'homebase',
+            nativeCurrency: {
+              name: 'Ether',
+              symbol: 'ETH',
+              decimals: 18,
+            },
+            rpcUrls: {
+              default: {
+                http: ['https://base-rpc.publicnode.com'],
               },
             },
           },
         ],
         // Configure embedded wallets
-        embeddedWallets: {
-          createOnLogin: 'users-without-wallets',
-        },
+        // embeddedWallets: {
+        //   createOnLogin: 'users-without-wallets',
+        // },
       }}
     >
       <Component {...pageProps} />
