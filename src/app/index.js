@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <head>
         <title>AbrahamNAVIG</title>
-        <meta name="description" content="Next.js app with Privy wallet connection" />
+        <meta name="description" content="Next.js app with WalletConnect integration" />
         <link rel="icon" href="/cat.jpg" />
       </head>
 
